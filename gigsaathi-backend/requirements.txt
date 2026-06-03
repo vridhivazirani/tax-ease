@@ -1,0 +1,26 @@
+# GigSaathi Backend Dependencies
+# FastAPI & server
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.18
+
+# MongoDB async driver
+motor==3.6.0
+pymongo>=4.9,<4.10
+
+# Google Gemini SDK
+google-genai==1.14.0
+
+# Config & validation
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# PDF generation (for ITR export & sample data)
+reportlab==4.2.5
+
+# HTTP client
+httpx==0.28.1
+
+# Date utilities
+python-dateutil==2.9.0
